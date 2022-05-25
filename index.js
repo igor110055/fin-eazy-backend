@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const path = require("path");;
+const cors=require("cors");
 const Binance=require('binance-api-node').default;
 app.use(express.json());
 ;
@@ -30,7 +31,7 @@ const UserSchema= require("./model/Test");
 //   return data
 // }
 // salman().then(data=>{console.log(data)}).catch((e)=>{console.log(e)})
-
+app.use(cors())
 app.use("/getprice", require("./routes/getprice"));
 
 
