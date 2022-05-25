@@ -9,10 +9,8 @@ module.exports.getprice4 = async (req, res) => {
     async function salman(){
       const data = await client.prices();
       
-      return {
-        "POWRETH":data["POWRETH"],
-        "ARNETH":data["ARNETH"],
-      }
+     res.send({"POWRETH":data["POWRETH"],
+     "ARNETH":data["ARNETH"],})
     
     }
     salman().then(data=>{res.send(data)}).catch((e)=>{console.log(e)})

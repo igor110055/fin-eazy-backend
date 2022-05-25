@@ -16,19 +16,21 @@ module.exports.getprice5 = async (req, res) => {
       })
       
 
-      return {
-        "BTCUSDT":{
-          "BTCUSDT":data["BTCUSDT"],
-          "priceChangePercent":BNBUSDT["priceChangePercent"],
-          "priceChange":BNBUSDT["priceChange"],
-        },
-        "ETHUSDT":{
-          "ETHUSDT":data["ETHUSDT"],
-          "priceChangePercent":ETHUSDT["priceChangePercent"],
-          "priceChange":ETHUSDT["priceChange"],
-        },
- 
-      }
+      res.send(
+        {
+          "BTCUSDT":{
+            "BTCUSDT":data["BTCUSDT"],
+            "priceChangePercent":BNBUSDT["priceChangePercent"],
+            "priceChange":BNBUSDT["priceChange"],
+          },
+          "ETHUSDT":{
+            "ETHUSDT":data["ETHUSDT"],
+            "priceChangePercent":ETHUSDT["priceChangePercent"],
+            "priceChange":ETHUSDT["priceChange"],
+          },
+   
+        }
+      )
     
     }
     salman().then(data=>{res.send(data)}).catch((e)=>{console.log(e)})

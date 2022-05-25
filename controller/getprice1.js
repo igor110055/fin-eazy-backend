@@ -9,11 +9,11 @@ module.exports.getprice1 = async (req, res) => {
     async function salman(){
       const data = await client.prices();
       
-      return {
+      res.send({
         "ETHBTC":data["ETHBTC"],
         "NEOETH":data["NEOETH"],
-      }
-    
+      })
+  
     }
     salman().then(data=>{res.send(data)}).catch((e)=>{console.log(e)})
     

@@ -9,7 +9,7 @@ module.exports.getprice = async (req, res) => {
     async function salman(){
       const data = await client.prices();
       
-      return data
+      res.send(data);
     
     }
     salman().then(data=>{res.send(data)}).catch((e)=>{console.log(e)})
