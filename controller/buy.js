@@ -9,22 +9,30 @@ module.exports.buy = async (req, res) => {
 
     const client = Binance()
     const client2 = Binance({
-      apiKey: process.env.API_KEY,
-      apiSecret: process.env.API_SECRET,
+      apiKey: "tkvR0fxbBD8LeJotggSdnp1nzxip2DmOqJLR3cFQ4aYASydgjEB5cZiLKKmPGbIY",
+      apiSecret: "DERLHx1KYhMNsyYOHwRrQ7rn60EBoeMRcOPYRqyE96fmnYjWvuAEQkRpFP67Ht0k",
         getTime:()=> new client.time()
       })
       
     
     async function salman(){
-      const data = await client2.order({
+      const data1 = await client2.order({
         symbol: 'BTCUSDT',
         side: 'BUY',
         quantity: '0.00041',
         price: '29891.00',
       })
+      const data2 = await client2.order({
+        symbol: 'ETHUSDT',
+        side: 'BUY',
+        quantity: '0.005238',
+        price: '1959.450000',
+      })
       
       
-      return data
+      return {
+        data1,data2
+      }
     
    }
     salman().then(data=>{res.send(data)}).catch((e)=>{console.log(e)})

@@ -9,9 +9,9 @@ module.exports.sell = async (req, res) => {
 
     const client = Binance()
     const client2 = Binance({
-        apiKey: process.env.API_KEY,
-        apiSecret: process.env.API_SECRET,
-        getTime: () => new client.time() 
+        apiKey: "tkvR0fxbBD8LeJotggSdnp1nzxip2DmOqJLR3cFQ4aYASydgjEB5cZiLKKmPGbIY",
+        apiSecret: "DERLHx1KYhMNsyYOHwRrQ7rn60EBoeMRcOPYRqyE96fmnYjWvuAEQkRpFP67Ht0k",
+         getTime:()=> new client.time()
       })
       
       
@@ -19,8 +19,8 @@ module.exports.sell = async (req, res) => {
       const data = await client2.order({
         symbol: 'BTCUSDT',
         side: 'SELL',
-        quantity: '0.00040959',
-        price: '29893.00',
+        quantity: '0.00040',
+        price: '29721.00',
       })
       
       return data
