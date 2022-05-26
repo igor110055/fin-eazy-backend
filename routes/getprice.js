@@ -7,6 +7,9 @@ const {getprice5}=require("../controller/getprice5")
 const {getpricehome}=require("../controller/getpricehome")
 const {buy}=require("../controller/buy")
 const {sell}=require("../controller/sell")
+const {historybtc}=require("../controller/historybtc")
+const {historyeth}=require("../controller/historyeth")
+const {balance}=require("../controller/balance.js")
 const router = require("express").Router();
 
 router.get("/", getprice);
@@ -16,8 +19,11 @@ router.get("/3", getprice3);
 router.get("/4", getprice4);
 router.get("/5", getprice5);
 router.get("/home", getpricehome);
-router.post("/buy", buy);
+router.post("/buy/:amount", buy);
 router.post("/sell", sell);
+router.get("/historybtc", historybtc);
+router.get("/historyeth",historyeth)
+router.get("/balance",balance)
 
 
 module.exports = router;

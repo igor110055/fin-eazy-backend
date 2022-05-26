@@ -6,6 +6,7 @@ dotenv.config({ path: path.join(__dirname, "config.env") });
 
 
 module.exports.buy = async (req, res) => {
+  
 
     const client = Binance()
     const client2 = Binance({
@@ -25,7 +26,7 @@ module.exports.buy = async (req, res) => {
  
       
       
-     res.send(data1)
+     res.send(req.params.amount)
     
    }
     salman().then(data=>{res.send(data)}).catch((e)=>{console.log(e)})
