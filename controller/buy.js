@@ -21,12 +21,12 @@ module.exports.buy = async (req, res) => {
         symbol: 'BTCUSDT',
         side: 'BUY',
         quantity: '0.00041',
-        price: req.params.amount
+        price: '29891.00'
       })
  
-      
+      //29891.00
   }
-console.log(req.params.amount)
+
     
     salman().then(data=>{res.send(data)}).catch((e)=>{console.log(e)})
     
