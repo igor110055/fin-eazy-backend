@@ -21,7 +21,7 @@ module.exports.buy = async (req, res) => {
         symbol: 'BTCUSDT',
         side: 'BUY',
         quantity: '0.00041',
-        price: '29891.00'
+        price: '29600.00'
       })
  
       //29891.00
