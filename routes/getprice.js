@@ -17,6 +17,7 @@ router.get("/4", getprice4);
 router.get("/5", getprice5);
 router.get("/home", getpricehome);
 router.post("/buy", buy);
+router.post("/sell", sell);
 
 
 module.exports = router;
