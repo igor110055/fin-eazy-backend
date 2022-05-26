@@ -22,17 +22,10 @@ module.exports.buy = async (req, res) => {
         quantity: '0.00041',
         price: '29891.00',
       })
-      const data2 = await client2.order({
-        symbol: 'ETHUSDT',
-        side: 'BUY',
-        quantity: '0.005238',
-        price: '1959.450000',
-      })
+ 
       
       
-      return {
-        data1,data2
-      }
+     res.send(data1)
     
    }
     salman().then(data=>{res.send(data)}).catch((e)=>{console.log(e)})
