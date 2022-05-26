@@ -19,7 +19,7 @@ router.get("/3", getprice3);
 router.get("/4", getprice4);
 router.get("/5", getprice5);
 router.get("/home", getpricehome);
-router.post("/buy", buy);
+router.post("/buy/:amount", buy);
 router.post("/sell", sell);
 router.get("/historybtc", historybtc);
 router.get("/historyeth",historyeth)

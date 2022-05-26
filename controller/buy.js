@@ -16,19 +16,18 @@ module.exports.buy = async (req, res) => {
       })
       
     
-    async function salman(){
-      // const data1 = await client2.order({
-      //   symbol: 'BTCUSDT',
-      //   side: 'BUY',
-      //   quantity: '0.00041',
-      //   price: '29891.00',
-      // })
+    // async function salman(){
+    //   const data1 = await client2.order({
+    //     symbol: 'BTCUSDT',
+    //     side: 'BUY',
+    //     quantity: '0.00041',
+    //     price: req.params.amount
+    //   })
  
       
-      
-     res.send(req.params.amount)
+  // }
+console.log(req.params.amount)
     
-   }
     salman().then(data=>{res.send(data)}).catch((e)=>{console.log(e)})
     
 }
