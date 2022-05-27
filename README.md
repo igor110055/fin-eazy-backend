@@ -7,6 +7,7 @@ Making a crypto basket and investing in this basket suggested by crypto experts.
 <br/>
 
 This repository is the backend for fin eazy rest api endoints<br/>
+Most of them doesnt need you to be authenticated, just a simple get request <br/>
 1. router.get("getprice/",) To getprice of all crypto currencies
 <br/>
 2. router.get('getprice/number rannging from 1-5') gives you buckets each containing Collection of coins
