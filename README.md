@@ -9,19 +9,12 @@ Making a crypto basket and investing in this basket suggested by crypto experts.
 This repository is the backend for fin eazy rest api endoints<br/>
 Most of them doesnt need you to be authenticated, just a simple get request <br/>
 1. router.get("getprice/",) To getprice of all crypto currencies
-<br/>
 2. router.get('getprice/number rannging from 1-5') gives you buckets each containing Collection of coins
-<br/>
 3. router.get("getprice/home",) To get price, analytics of the trending coins right now.
-<br/>
 4. router.post("getprice/buy") To actually buy a bucket of coins, here we buy the capsule number 5 so make sure to have enough balance before you call the function
-<br/>
 5. router.post("getprice/sell") To sell
-<br/>
 6. router.get("getprice/historybtc") To get your transaction history buying bitcoins
-<br/>
 7. router.get("getprice/historyeth")  To get your transaction history buying ethereum
-<br/>
 8. router.get("getprice/balance") To get your account balance
 
 <br/>
