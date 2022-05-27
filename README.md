@@ -38,6 +38,7 @@ The basket will be brought/sold at the exchange in which the user is using.
 <br/>
 <br/>
   This solution could could help investors from 
+  <br/>
   1. saving time for research.
   2. Bearing huge losses.
     <br/>
