@@ -1,5 +1,4 @@
 # fin-eazy-backend
-https://fineazy.herokuapp.com/
 Crypto has been a main discussion in social media for a while.Lots of Beginner investors in crypto are losing money because of lack of proper knowledge.These investors are vulnerable to rug pulls and exit pumps.
 Our product FinEazy helps in diversifying their portfolio by investing in a bunch of crypto assets to mitigate risk.Making a crypto basket and investing in this basket suggested by crypto experts.(Like what small case by zerodha does(They do not provide crypto baskets)).
 
