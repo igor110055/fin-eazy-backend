@@ -7,7 +7,7 @@ Making a crypto basket and investing in this basket suggested by crypto experts.
 <br/>
 
 This repository is the backend for fin eazy rest api endoints<br/>
-Most of them doesnt need you to be authenticated, just a simple get request <br/>
+<br/>
 1. router.get("getprice/",) To getprice of all crypto currencies
 2. router.get('getprice/number rannging from 1-5') gives you buckets each containing Collection of coins
 3. router.get("getprice/home",) To get price, analytics of the trending coins right now.
@@ -20,6 +20,8 @@ Most of them doesnt need you to be authenticated, just a simple get request <br/
 <br/>
 <br/>
 the endpoints /buy,/sell,/balance,/historyeth,btc and balance requires you to be authenticated by providing your api key and api secret which you can get from your Binance account.
+<br/>
+Frontend of the project https://github.com/salmanpary/FinEazy
 
 
 
@@ -42,6 +44,8 @@ We are also planning to expand this By adding Android,ios support.
 Also we are also planning to provide Dentralised exchange support.
 Eg:Uniswap
 <br/>
+
+
 
 
 
