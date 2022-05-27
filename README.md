@@ -7,7 +7,6 @@ Making a crypto basket and investing in this basket suggested by crypto experts.
 <br/>
 <br/>
 This repository is the backend for fin eazy rest api endoints
-<br/>
 
 
 1. router.get("getprice/",) To getprice of all crypto currencies
