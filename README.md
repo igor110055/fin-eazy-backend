@@ -5,10 +5,8 @@ Our product FinEazy helps in diversifying their portfolio by investing in a bunc
 <br/>
 Making a crypto basket and investing in this basket suggested by crypto experts.(Like what small case by zerodha does(They do not provide crypto baskets)).
 <br/>
-<br/>
-This repository is the backend for fin eazy rest api endoints
 
-
+This repository is the backend for fin eazy rest api endoints<br/>
 1. router.get("getprice/",) To getprice of all crypto currencies
 <br/>
 2. router.get('getprice/number rannging from 1-5') gives you buckets each containing Collection of coins
