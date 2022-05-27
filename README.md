@@ -23,20 +23,23 @@ the endpoints /buy,/sell,/balance,/historyeth,btc and balance requires you to be
 <br/>
 Frontend of the project https://github.com/salmanpary/FinEazy
 
-
+<br/>
+<br/>
 
 <br/>
 We are building website initially, for crypto investors in which they can use their existing Crypto Exchange to invest in this basket.
 <br/>
 For example: 
 The investor can use Binance/kucoin/gate.io
-Or any other crypto exchange which they are already using.The basket will be brought/sold at the exchange in which the user is using.
+Or any other crypto exchange which they are already using.
+<br/>
+The basket will be brought/sold at the exchange in which the user is using.
 (They can use any exchange of their choice)
 <br/>
 <br/>
   This solution could could help investors from 
-    1)saving time for research.
-    2)Bearing huge losses.
+  1. saving time for research.
+  2. Bearing huge losses.
     <br/>
     <br/>
 As we expand,
