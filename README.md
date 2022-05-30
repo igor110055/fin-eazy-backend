@@ -47,7 +47,7 @@ The basket will be brought/sold at the exchange in which the user is using.
 As we expand,
 We are also planning to expand this By adding Android,ios support.
 Also we are also planning to provide Dentralised exchange support.
-Eg:Uniswap
+Eg:Uniswap.
 <br/>
 
 
